@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Fountain Menu">
-<title>Fountain Dining Menu</title>
+<meta name="apple-mobile-web-app-title" content="Dining Menu">
+<title>NC State Dining Menu</title>
 <style>
 :root{--bg:#f6f6f4;--fg:#1b1b1b;--muted:#5f5f5f;--card:#ffffff;--line:#e2e2de;--accent:#b80000;--accent-fg:#ffffff;--ok-bg:#e3f1e2;--ok-fg:#1e5a1c;--warn-bg:#fdebc8;--warn-fg:#7a4a00}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121212;--fg:#ececec;--muted:#a3a3a3;--card:#1d1d1f;--line:#333336;--accent:#ff6b6b;--accent-fg:#1a0000;--ok-bg:#1f3a1e;--ok-fg:#a9e3a6;--warn-bg:#4a3510;--warn-fg:#ffd98a}}
@@ -25,6 +25,7 @@ button{font:inherit;color:inherit}
 .chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
 .day{display:flex;flex-direction:column;align-items:center;border-radius:14px;padding:6px 12px;min-width:56px;line-height:1.2}
 .day span{font-size:12px}.day b{font-size:18px}
+.halls{margin-bottom:6px}.halls .chip{font-size:14px;padding:5px 12px}
 .seg{display:flex;gap:8px}.seg .chip{flex:1;text-align:center}
 main{padding:12px 16px 8px;max-width:720px;margin:0 auto}
 input[type=search]{width:100%;padding:10px 12px;font-size:16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)}
@@ -51,6 +52,7 @@ footer a{color:var(--accent)}
 <header class="top">
 <h1 id="unit">Dining menu</h1>
 <p class="sub" id="updated"></p>
+<nav class="strip halls" id="halls" aria-label="Choose a dining hall" hidden></nav>
 <nav class="strip" id="days" aria-label="Choose a day"></nav>
 <div class="seg" id="meals" aria-label="Choose a meal"></div>
 </header>
@@ -73,8 +75,10 @@ function start(DATA){
 const PREFS=[["Vegetarian","Vegetarian"],["Vegan","Vegan"],["Halal (U)","Halal"]];
 const AVOID=[["Contains Dairy","Dairy"],["Contains Gluten","Gluten"],["Contains Nuts","Nuts"],["Contains Pork","Pork"],["Contains Seafood","Seafood"],["Contains Sesame","Sesame"],["Eggs","Eggs"],["Soy","Soy"]];
 const OK=new Set(PREFS.map(p=>p[0]));
-const unit=DATA.units[0];
-const DAYS=unit.days.map(d=>({date:d.date,meals:d.meals.filter(m=>m.stations.length)})).filter(d=>d.meals.length);
+const UNITS=DATA.units.filter(u=>u.days.some(d=>d.meals.some(m=>m.stations.length)));
+let ui=0;
+try{const h=localStorage.getItem("fdm-hall");const i=UNITS.findIndex(u=>u.name===h);if(i>=0)ui=i}catch(e){}
+let unit,DAYS,di,exact;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const pad=n=>String(n).padStart(2,"0");
@@ -83,17 +87,26 @@ const iso=now.getFullYear()+"-"+pad(now.getMonth()+1)+"-"+pad(now.getDate());
 let prefs=new Set(),avoid=new Set(),q="";
 try{const s=JSON.parse(localStorage.getItem("fdm-filters")||"{}");prefs=new Set(s.p||[]);avoid=new Set(s.a||[])}catch(e){}
 function save(){try{localStorage.setItem("fdm-filters",JSON.stringify({p:[...prefs],a:[...avoid]}))}catch(e){}}
-let di=DAYS.findIndex(d=>d.date===iso);
-const exact=di>=0;
-if(!exact){di=DAYS.findIndex(d=>d.date>iso);if(di<0)di=DAYS.length-1}
 const hr=now.getHours()+now.getMinutes()/60;
 const want=hr<10.5?"Breakfast":hr<16?"Lunch":"Dinner";
 let meal=want;
-function fixMeal(){const ms=DAYS[di].meals.map(m=>m.meal);if(!ms.includes(meal))meal=ms.includes(want)?want:ms[0]}
+function fixMeal(){const ms=DAYS[di].meals.map(m=>m.meal);if(!ms.includes(meal))meal=ms.includes(want)?want:ms.includes("Brunch")&&want!=="Dinner"?"Brunch":ms[0]}
+function pickUnit(i){
+const keepDate=DAYS&&DAYS[di]?DAYS[di].date:null;
+ui=i;unit=UNITS[ui];
+DAYS=unit.days.map(d=>({date:d.date,meals:d.meals.filter(m=>m.stations.length)})).filter(d=>d.meals.length);
+di=DAYS.findIndex(d=>d.date===iso);
+exact=di>=0;
+if(!exact){di=DAYS.findIndex(d=>d.date>iso);if(di<0)di=DAYS.length-1}
+if(keepDate){const k=DAYS.findIndex(d=>d.date===keepDate);if(k>=0)di=k}
 fixMeal();
+}
+pickUnit(ui);
 const dd=s=>new Date(s+"T12:00:00");
 function renderTop(){
 $("unit").textContent=unit.name;
+$("halls").hidden=UNITS.length<2;
+$("halls").innerHTML=UNITS.map((u,i)=>`<button class="chip" data-h="${i}" aria-pressed="${i===ui}">${esc(u.name.replace(/ Dining Hall$/,""))}</button>`).join("");
 $("updated").textContent="Menu updated "+new Date(DATA.fetchedAt).toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
 $("stale").hidden=exact;
 $("days").innerHTML=DAYS.map((d,i)=>`<button class="chip day" data-i="${i}" aria-pressed="${i===di}"><span>${dd(d.date).toLocaleDateString("en-US",{weekday:"short"})}</span><b>${dd(d.date).getDate()}</b></button>`).join("");
@@ -121,6 +134,7 @@ html+=`<details class="st" open><summary>${esc(s.name)}<span class="ct">${items.
 $("list").innerHTML=html||`<p class="msg">No foods match your filters.</p>`;
 }
 function all(){renderTop();renderFilters();renderList()}
+$("halls").onclick=e=>{const b=e.target.closest("[data-h]");if(!b)return;pickUnit(+b.dataset.h);try{localStorage.setItem("fdm-hall",unit.name)}catch(x){}all()};
 $("days").onclick=e=>{const b=e.target.closest("[data-i]");if(!b)return;di=+b.dataset.i;fixMeal();all()};
 $("meals").onclick=e=>{const b=e.target.closest("[data-m]");if(!b)return;meal=b.dataset.m;all()};
 function toggle(set){return e=>{const b=e.target.closest("[data-k]");if(!b)return;const k=b.dataset.k;set.has(k)?set.delete(k):set.add(k);save();renderFilters();renderList()}}
