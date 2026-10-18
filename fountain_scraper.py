@@ -3,7 +3,7 @@ fountain_scraper.py
 
 What this does, in plain words:
   1. Opens NC State's menu website (NetNutrition) the way a browser would.
-  2. Asks for each dining hall's week of menus (Fountain and Clark for now).
+  2. Asks for each dining hall's week of menus (Fountain, Clark, One Earth, Case and University Towers).
   3. Asks for each Breakfast, Brunch, Lunch and Dinner menu in that week.
   4. Saves everything into one tidy file called menu.json.
 
@@ -24,6 +24,9 @@ BASE = "https://netmenu2.cbord.com/NetNutrition/ncstate-dining"
 UNITS = {                                         # name -> unitOid (the site's ID number)
     "Fountain Dining Hall": 1,
     "Clark Dining Hall": None,                    # None = find the ID on the site by name
+    "One Earth": None,
+    "Case Dining Hall": None,
+    "University Towers": None,
 }
 MEALS_TO_KEEP = {"Breakfast", "Brunch", "Lunch", "Dinner"}  # "Daily" repeats the same food, so skip it
 PAUSE_SECONDS = 2                                 # wait between requests to be gentle on the site
@@ -124,8 +127,13 @@ def find_unit_ids(home_html):
 def lookup_id(unit_name, known_ids):
     """Finds a hall's ID by name, e.g. "Clark Dining Hall" matches "Clark"."""
     key = unit_name.lower().replace("dining hall", "").strip()
-    for name, oid in known_ids.items():
-        if key and key in name.lower():
+    if not key:
+        return None
+    for name, oid in known_ids.items():  # an exact name wins first
+        if name.lower().replace("dining hall", "").strip() == key:
+            return oid
+    for name, oid in known_ids.items():  # then a whole-word match, so "Case" won't match "Showcase"
+        if re.search(rf"\b{re.escape(key)}\b", name.lower()):
             return oid
     return None
 
