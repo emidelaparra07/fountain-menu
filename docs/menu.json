@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T01:53:51+00:00",
+  "fetchedAt": "2026-10-18T02:12:20+00:00",
   "units": [
     {
       "name": "Fountain Dining Hall",
@@ -10861,6 +10861,4848 @@
                       "tags": [
                         "Contains Dairy",
                         "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clark Dining Hall",
+      "days": [
+        {
+          "date": "2026-10-17",
+          "label": "Saturday, October 17, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Hamburger Bun",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Individually Wrapped Gluten Free Bread",
+                      "tags": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Hamburger Bun",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Individually Wrapped Gluten Free Bread",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Hamburger Bun",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Individually Wrapped Gluten Free Bread",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "label": "Sunday, October 18, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "label": "Monday, October 19, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Scratch Made French Toast",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Masala Spiced Lentil Soup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Cali Quinoa Bowl",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Blackened Salmon",
+                      "tags": [
+                        "Contains Seafood",
+                        "Halal (U)"
+                      ]
+                    },
+                    {
+                      "name": "Charleston Red Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Italian Roasted Chicken Thighs",
+                      "tags": [
+                        "Halal (U)"
+                      ]
+                    },
+                    {
+                      "name": "Latin Roasted Carrots",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sauteed Zucchini & Onions",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "White Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cajun-Style Red Beans",
+                      "tags": [
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Cheeseburger Patty",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "French Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grilled Cheese Sandwich",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hamburger Patty",
+                      "tags": []
+                    },
+                    {
+                      "name": "Hamburger Roll",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Garlic Toast",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Grated Parmesan Cheese",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Italian Meat Sauce",
+                      "tags": []
+                    },
+                    {
+                      "name": "Rigatoni Pasta",
+                      "tags": [
+                        "Contains Gluten",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Three Cheese Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "label": "Tuesday, October 20, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Buttermilk Pancakes Made Fresh",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Vegetable Soup",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Crispy Bourbon Tofu",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Fried Rice",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "General Tso Chicken",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Green Onion",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Spring Roll",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sweet & Sour Sauce",
+                      "tags": [
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Yum Yum Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Baked Asian Tilapia",
+                      "tags": [
+                        "Contains Seafood"
+                      ]
+                    },
+                    {
+                      "name": "Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Hawaiian Chicken",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Sweet Potato Fingerlings",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sauteed Green Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cumin Black Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "French Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grilled Cheese Sandwich",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Lettuce, Tomatoes & Onions",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Lightly Breaded Chicken Sandwich",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Spicy Chicken Patty",
+                      "tags": [
+                        "Contains Gluten"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Porkless Pepperoni Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Garlic Breadstick",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grated Parmesan Cheese",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Three Cheese Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Tomato Basil Penne",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Soup Du Jour",
+                      "tags": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "label": "Wednesday, October 21, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Blueberry Compote",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Toast Sticks",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Peach Compote",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Whipped Topping",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Apple Cinnamon Muffins",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Blueberry Muffins",
+                      "tags": [
+                        "Contains Gluten",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Bacon",
+                      "tags": [
+                        "Contains Pork"
+                      ]
+                    },
+                    {
+                      "name": "Buttermilk Biscuit",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Crispy Potato Bites",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Freshly Scrambled Eggs",
+                      "tags": [
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hard Boiled Eggs",
+                      "tags": [
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Plant-Based Breakfast Sausage Patty",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Gravy",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Homestyle Grits",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Omelettes Made to Order",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Pork",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Quaker Oatmeal",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Chili Con Carne with Beef",
+                      "tags": []
+                    },
+                    {
+                      "name": "Chopped Onions",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cilantro",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Green Onion",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hearty Plant-Based Chili",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Corn",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Jalapeno Peppers",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Monterey Jack & Cheddar Cheese",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Sour Cream",
+                      "tags": [
+                        "Contains Dairy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Tater Tots",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Yellow Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Cumin Black Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Quinoa Pilaf",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Ranch Steamed Broccoli",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Acorn Squash",
+                      "tags": [
+                        "Contains Dairy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Blackened Chicken",
+                      "tags": []
+                    },
+                    {
+                      "name": "TILAPIA BAKED LEMON PEPPER - MURPHY",
+                      "tags": [
+                        "Contains Seafood"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "French Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grilled Cheese Sandwich",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Nathans Jumbo Dog",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Marinara Sauce",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Spaghetti",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Corn Muffin",
+                      "tags": [
+                        "Contains Gluten",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Ranch Oyster Crackers",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Tri-Colored Tortilla Strips",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad",
+                  "items": [
+                    {
+                      "name": "Edamame Salad",
+                      "tags": [
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Turkish Shepherd's Salad",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Chicken Poblano Soup",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Blue Cheese Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Bourbon Sauce",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Buffalo Wing Sauce",
+                      "tags": [
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Buttermilk Ranch",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Carrot",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Celery",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Chicken Wings",
+                      "tags": []
+                    },
+                    {
+                      "name": "Garlic Parmesan Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Veggie Tenders",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Baked Jerk Tilapia",
+                      "tags": [
+                        "Contains Seafood"
+                      ]
+                    },
+                    {
+                      "name": "Brazilian Pinto Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cajun Roasted Redskin Potatoes",
+                      "tags": []
+                    },
+                    {
+                      "name": "Roasted Butternut Squash",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sage & Cumin Rubbed Pork Lion",
+                      "tags": [
+                        "Contains Pork"
+                      ]
+                    },
+                    {
+                      "name": "White Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Garlic Broccoli",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Cheeseburger Patty",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "French Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grilled Cheese Sandwich",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hamburger Patty",
+                      "tags": []
+                    },
+                    {
+                      "name": "Hamburger Roll",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Classic Marinara Sauce",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Garlic Toast",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Grated Parmesan Cheese",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Three Cheese Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Bowtie Pasta",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Beef and Barley Soup",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "label": "Thursday, October 22, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Blueberry Compote",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Peach Compote",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Semi-Sweet Chocolate Chips",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Whipped Topping",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Buttermilk Biscuit",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Chicken Sausage Patty",
+                      "tags": []
+                    },
+                    {
+                      "name": "Freshly Scrambled Eggs",
+                      "tags": [
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hard Boiled Eggs",
+                      "tags": [
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hash Brown Patty",
+                      "tags": [
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Plant-Based Breakfast Sausage Patty",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Link",
+                      "tags": [
+                        "Contains Pork"
+                      ]
+                    },
+                    {
+                      "name": "Crispy Potato Bites",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Homestyle Grits",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Omelettes Made to Order",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Pork",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Quaker Oatmeal",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Buffalo Chicken Wrap",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Veggie Tenders",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Cajun-Style Red Beans",
+                      "tags": [
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cauliflower",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Dry Roasted BBQ Chicken",
+                      "tags": []
+                    },
+                    {
+                      "name": "Herb Baked Fish",
+                      "tags": [
+                        "Contains Seafood",
+                        "Halal (U)"
+                      ]
+                    },
+                    {
+                      "name": "Macaroni & Cheese",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Sauteed Green Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "White Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Cheeseburger Patty",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "French Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grilled Cheese Sandwich",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hamburger Patty",
+                      "tags": []
+                    },
+                    {
+                      "name": "Hamburger Roll",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Porkless Pepperoni Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cavatappi Pasta",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Marinara Sauce",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Pesto Spinach Sauce",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad",
+                  "items": [
+                    {
+                      "name": "Quinoa Super Salad",
+                      "tags": [
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Vegetarian Broccoli Salad",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "French Onion Soup",
+                      "tags": [
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Birria Pulled Beef",
+                      "tags": []
+                    },
+                    {
+                      "name": "Cheddar & Pepperjack Cheese Sauce",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Cumin Black Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Jalapenos",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Peppers & Onions",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Philly-Style Chicken",
+                      "tags": []
+                    },
+                    {
+                      "name": "Pico De Gallo",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Tri-Colored Tortilla Chips",
+                      "tags": [
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Sour Cream",
+                      "tags": [
+                        "Contains Dairy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Chicken Parmesan",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Citrus Roasted Broccoli",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Eggplant Parmesan",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Steamed Carrots",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Sweet Potato Fingerlings",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Hamburger Roll",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Cheeseburger Patty",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Hamburger Patty",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Porkless Pepperoni Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "CAVATAPPI GARLIC CREAM SAUCE",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Classic Marinara Sauce",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Garlic Breadstick",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grated Parmesan Cheese",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Soup Du Jour",
+                      "tags": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "label": "Friday, October 23, 2026",
+          "meals": [
+            {
+              "meal": "Breakfast",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Blueberry Compote",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Peach Compote",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Semi-Sweet Chocolate Chips",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Whipped Topping",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Apple Cinnamon Muffins",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Blueberry Muffins",
+                      "tags": [
+                        "Contains Gluten",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Buttermilk Biscuit",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Crispy Potato Bites",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Freshly Scrambled Eggs",
+                      "tags": [
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hard Boiled Eggs",
+                      "tags": [
+                        "Eggs",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Plant-Based Breakfast Sausage Patty",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Gravy",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork"
+                      ]
+                    },
+                    {
+                      "name": "Turkey Sausage Links",
+                      "tags": [
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Plain Bagel",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Homestyle Grits",
+                      "tags": [
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Omelettes Made to Order",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Pork",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Quaker Oatmeal",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Lunch",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Cheddar & Pepperjack Cheese Sauce",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Cumin Black Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Fajita Philly Steak Meat",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Flour Tortilla",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Peppers & Onions",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Philly-Style Chicken",
+                      "tags": []
+                    },
+                    {
+                      "name": "Shoestring French Fries",
+                      "tags": []
+                    },
+                    {
+                      "name": "Vegan \"Beef\" Strips",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Cumin Black Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Fresh Steamed Broccoli",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grandma's Fried Chicken",
+                      "tags": [
+                        "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Lemon & Herb  Baked Fish",
+                      "tags": [
+                        "Contains Seafood",
+                        "Soy",
+                        "Halal (U)"
+                      ]
+                    },
+                    {
+                      "name": "Rutabagas & Friends",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "White Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Plain Bagel",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Cheeseburger Patty",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "French Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Grilled Cheese Sandwich",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hamburger Patty",
+                      "tags": []
+                    },
+                    {
+                      "name": "Hamburger Roll",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Marinara Sauce",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Ziti Pasta",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad",
+                  "items": [
+                    {
+                      "name": "Blueberry Kale Salad",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "Roasted Red Pepper Gouda Soup",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "meal": "Dinner",
+              "stations": [
+                {
+                  "name": "Bowls",
+                  "items": [
+                    {
+                      "name": "Latin Grain Bowl with Chicken",
+                      "tags": []
+                    },
+                    {
+                      "name": "Veggie Tenders",
+                      "tags": [
+                        "Contains Gluten",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread",
+                  "items": [
+                    {
+                      "name": "Assorted Bagels",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Plain English Muffin",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Salad Dressings",
+                  "items": [
+                    {
+                      "name": "Balsamic Vinaigrette",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Caesar Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Seafood",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Fat-Free Italian Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "French Dressing",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Ranch Dressing",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Raspberry Vinaigrette Dressing",
+                      "tags": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sauces",
+                  "items": [
+                    {
+                      "name": "Boom Boom Sauce",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Home Style Entree",
+                  "items": [
+                    {
+                      "name": "Asian Steamed Broccoli",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Garlic Sage Roasted Redskin Potatoes",
+                      "tags": []
+                    },
+                    {
+                      "name": "Pork Loin w/ Orange Ginger Glaze",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Pork",
+                        "Contains Sesame",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Sweet Spiced Salmon",
+                      "tags": [
+                        "Contains Seafood"
+                      ]
+                    },
+                    {
+                      "name": "Yellow Squash and Onions",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Cumin Black Beans",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "White Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Gluten-Friendly Station",
+                  "items": [
+                    {
+                      "name": "Chocolate Chip Cookie (Gluten Free)",
+                      "tags": [
+                        "Contains Dairy",
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Double Chocolate Muffins",
+                      "tags": [
+                        "Eggs"
+                      ]
+                    },
+                    {
+                      "name": "Gluten Free Plain Bagel",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Gluten-Free Blueberry Muffin",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Grill Stations",
+                  "items": [
+                    {
+                      "name": "Beyond Burger",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    },
+                    {
+                      "name": "Cheese Quesadilla",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Crinkle Cut Sweet Potato Fries",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Fajita Steak Quesadilla",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pizza",
+                  "items": [
+                    {
+                      "name": "Cheese Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sausage Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Pork",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Vegetable Pizza",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Pasta",
+                  "items": [
+                    {
+                      "name": "Garlic Toast",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Grated Parmesan Cheese",
+                      "tags": [
+                        "Contains Dairy"
+                      ]
+                    },
+                    {
+                      "name": "Three Cheese Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Ziti Pasta",
+                      "tags": [
+                        "Contains Gluten",
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Classic Marinara Sauce",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Display",
+                  "items": [
+                    {
+                      "name": "Pancake Syrup",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Sugar-Free Pancake Syrup",
+                      "tags": [
+                        "Vegan"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Soup",
+                  "items": [
+                    {
+                      "name": "French Onion Soup",
+                      "tags": [
                         "Vegetarian"
                       ]
                     }
