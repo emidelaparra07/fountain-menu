@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Fountain Menu">
+<title>Fountain Dining Menu</title>
+<style>
+:root{--bg:#f6f6f4;--fg:#1b1b1b;--muted:#5f5f5f;--card:#ffffff;--line:#e2e2de;--accent:#b80000;--accent-fg:#ffffff;--ok-bg:#e3f1e2;--ok-fg:#1e5a1c;--warn-bg:#fdebc8;--warn-fg:#7a4a00}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121212;--fg:#ececec;--muted:#a3a3a3;--card:#1d1d1f;--line:#333336;--accent:#ff6b6b;--accent-fg:#1a0000;--ok-bg:#1f3a1e;--ok-fg:#a9e3a6;--warn-bg:#4a3510;--warn-fg:#ffd98a}}
+:root[data-theme="dark"]{--bg:#121212;--fg:#ececec;--muted:#a3a3a3;--card:#1d1d1f;--line:#333336;--accent:#ff6b6b;--accent-fg:#1a0000;--ok-bg:#1f3a1e;--ok-fg:#a9e3a6;--warn-bg:#4a3510;--warn-fg:#ffd98a}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);padding:12px 16px 8px;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:22px}
+.sub{margin:2px 0 10px;font-size:13px;color:var(--muted)}
+.strip{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+.strip::-webkit-scrollbar{display:none}
+button{font:inherit;color:inherit}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.day{display:flex;flex-direction:column;align-items:center;border-radius:14px;padding:6px 12px;min-width:56px;line-height:1.2}
+.day span{font-size:12px}.day b{font-size:18px}
+.seg{display:flex;gap:8px}.seg .chip{flex:1;text-align:center}
+main{padding:12px 16px 8px;max-width:720px;margin:0 auto}
+input[type=search]{width:100%;padding:10px 12px;font-size:16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)}
+.filters{margin:10px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.filters summary{cursor:pointer;font-weight:600}
+.filters p{margin:10px 0 6px;font-size:13px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.clear{margin-top:12px;border:0;background:none;color:var(--accent);padding:4px 0;cursor:pointer;font-weight:600}
+.st{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:0 12px}
+.st summary{padding:12px 0;cursor:pointer;font-weight:600}
+.ct{color:var(--muted);font-weight:400;font-size:13px;margin-left:6px}
+ul{list-style:none;margin:0;padding:0 0 6px}
+li{padding:8px 0;border-top:1px solid var(--line)}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.tg{font-size:11px;padding:1px 7px;border-radius:999px}
+.ok{background:var(--ok-bg);color:var(--ok-fg)}.warn{background:var(--warn-bg);color:var(--warn-fg)}
+.msg{color:var(--muted);text-align:center;padding:24px 0}
+.stale{background:var(--warn-bg);color:var(--warn-fg);border-radius:10px;padding:8px 12px;font-size:14px;margin-bottom:10px}
+footer{max-width:720px;margin:0 auto;padding:8px 16px 28px;font-size:12px;color:var(--muted)}
+footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header class="top">
+<h1 id="unit">Dining menu</h1>
+<p class="sub" id="updated"></p>
+<nav class="strip" id="days" aria-label="Choose a day"></nav>
+<div class="seg" id="meals" aria-label="Choose a meal"></div>
+</header>
+<main>
+<div class="stale" id="stale" hidden>Today’s menu isn’t in this copy, so this is the closest day. The menu may be out of date.</div>
+<input type="search" id="q" placeholder="Search for a food" aria-label="Search for a food">
+<details class="filters"><summary id="fsum">Filters</summary>
+<p>Only show foods labeled</p><div class="chips" id="prefs"></div>
+<p>Hide foods labeled</p><div class="chips" id="avoid"></div>
+<button class="clear" id="clear" type="button">Clear filters</button>
+</details>
+<div id="list"></div>
+</main>
+<footer>
+<p>Independent student project, not affiliated with NC State Dining. Menus come from NC State Dining’s <a href="https://netmenu2.cbord.com/NetNutrition/ncstate-dining">Menu &amp; Nutrition Portal</a> and can change. Green tags are diet labels and amber tags show what a food contains, exactly as the portal lists them.</p>
+<p><b>Allergies:</b> these labels and filters may be incomplete. Check the official portal or ask dining staff before you eat, and don’t rely on this page alone.</p>
+</footer>
+<script>
+function start(DATA){
+const PREFS=[["Vegetarian","Vegetarian"],["Vegan","Vegan"],["Halal (U)","Halal"]];
+const AVOID=[["Contains Dairy","Dairy"],["Contains Gluten","Gluten"],["Contains Nuts","Nuts"],["Contains Pork","Pork"],["Contains Seafood","Seafood"],["Contains Sesame","Sesame"],["Eggs","Eggs"],["Soy","Soy"]];
+const OK=new Set(PREFS.map(p=>p[0]));
+const unit=DATA.units[0];
+const DAYS=unit.days.map(d=>({date:d.date,meals:d.meals.filter(m=>m.stations.length)})).filter(d=>d.meals.length);
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pad=n=>String(n).padStart(2,"0");
+const now=new Date();
+const iso=now.getFullYear()+"-"+pad(now.getMonth()+1)+"-"+pad(now.getDate());
+let prefs=new Set(),avoid=new Set(),q="";
+try{const s=JSON.parse(localStorage.getItem("fdm-filters")||"{}");prefs=new Set(s.p||[]);avoid=new Set(s.a||[])}catch(e){}
+function save(){try{localStorage.setItem("fdm-filters",JSON.stringify({p:[...prefs],a:[...avoid]}))}catch(e){}}
+let di=DAYS.findIndex(d=>d.date===iso);
+const exact=di>=0;
+if(!exact){di=DAYS.findIndex(d=>d.date>iso);if(di<0)di=DAYS.length-1}
+const hr=now.getHours()+now.getMinutes()/60;
+const want=hr<10.5?"Breakfast":hr<16?"Lunch":"Dinner";
+let meal=want;
+function fixMeal(){const ms=DAYS[di].meals.map(m=>m.meal);if(!ms.includes(meal))meal=ms.includes(want)?want:ms[0]}
+fixMeal();
+const dd=s=>new Date(s+"T12:00:00");
+function renderTop(){
+$("unit").textContent=unit.name;
+$("updated").textContent="Menu updated "+new Date(DATA.fetchedAt).toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+$("stale").hidden=exact;
+$("days").innerHTML=DAYS.map((d,i)=>`<button class="chip day" data-i="${i}" aria-pressed="${i===di}"><span>${dd(d.date).toLocaleDateString("en-US",{weekday:"short"})}</span><b>${dd(d.date).getDate()}</b></button>`).join("");
+$("meals").innerHTML=DAYS[di].meals.map(m=>`<button class="chip" data-m="${esc(m.meal)}" aria-pressed="${m.meal===meal}">${esc(m.meal)}</button>`).join("");
+const on=document.querySelector("#days [aria-pressed=true]");
+try{on.scrollIntoView({inline:"center",block:"nearest"})}catch(e){}
+}
+function renderFilters(){
+const chip=(set,k,l)=>`<button class="chip" data-k="${esc(k)}" aria-pressed="${set.has(k)}">${esc(l)}</button>`;
+$("prefs").innerHTML=PREFS.map(p=>chip(prefs,p[0],p[1])).join("");
+$("avoid").innerHTML=AVOID.map(p=>chip(avoid,p[0],p[1])).join("");
+const n=prefs.size+avoid.size;
+$("fsum").textContent="Filters"+(n?" ("+n+" on)":"");
+}
+function renderList(){
+const m=DAYS[di].meals.find(x=>x.meal===meal);
+const term=q.trim().toLowerCase();
+const show=i=>[...prefs].every(p=>i.tags.includes(p))&&![...avoid].some(a=>i.tags.includes(a))&&(!term||i.name.toLowerCase().includes(term));
+let html="";
+for(const s of m.stations){
+const items=s.items.filter(show);
+if(!items.length)continue;
+html+=`<details class="st" open><summary>${esc(s.name)}<span class="ct">${items.length}</span></summary><ul>`+items.map(i=>`<li>${esc(i.name)}<div class="tags">${i.tags.map(t=>`<span class="tg ${OK.has(t)?"ok":"warn"}">${esc(t==="Halal (U)"?"Halal":t.replace("Contains ",""))}</span>`).join("")}</div></li>`).join("")+`</ul></details>`;
+}
+$("list").innerHTML=html||`<p class="msg">No foods match your filters.</p>`;
+}
+function all(){renderTop();renderFilters();renderList()}
+$("days").onclick=e=>{const b=e.target.closest("[data-i]");if(!b)return;di=+b.dataset.i;fixMeal();all()};
+$("meals").onclick=e=>{const b=e.target.closest("[data-m]");if(!b)return;meal=b.dataset.m;all()};
+function toggle(set){return e=>{const b=e.target.closest("[data-k]");if(!b)return;const k=b.dataset.k;set.has(k)?set.delete(k):set.add(k);save();renderFilters();renderList()}}
+$("prefs").onclick=toggle(prefs);
+$("avoid").onclick=toggle(avoid);
+$("clear").onclick=()=>{prefs.clear();avoid.clear();save();renderFilters();renderList()};
+$("q").oninput=e=>{q=e.target.value;renderList()};
+all();
+}
+fetch("menu.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(start).catch(()=>{document.getElementById("list").innerHTML='<p class="msg">Couldn’t load the menu. Try again in a moment.</p>'});
+</script>
+</body>
+</html>
