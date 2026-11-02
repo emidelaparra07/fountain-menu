@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T10:26:30+00:00",
+  "fetchedAt": "2026-11-02T20:45:25+00:00",
   "units": [
     {
       "name": "Fountain Dining Hall",
@@ -43,13 +43,6 @@
                 {
                   "name": "Yogurt/Fruit Bar",
                   "items": [
-                    {
-                      "name": "Cherry Greek Yogurt",
-                      "tags": [
-                        "Contains Dairy",
-                        "Vegetarian"
-                      ]
-                    },
                     {
                       "name": "Cottage Cheese",
                       "tags": [
@@ -111,6 +104,13 @@
                       "tags": [
                         "Contains Dairy",
                         "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Peach Greek Yogurt",
+                      "tags": [
+                        "Contains Dairy",
                         "Vegetarian"
                       ]
                     }
@@ -4349,10 +4349,11 @@
                       ]
                     },
                     {
-                      "name": "General Tso Boneless Pork Ribs",
+                      "name": "Crispy Orange Hoisin Pork",
                       "tags": [
                         "Contains Gluten",
                         "Contains Pork",
+                        "Contains Sesame",
                         "Soy"
                       ]
                     }
@@ -5085,10 +5086,11 @@
                       ]
                     },
                     {
-                      "name": "General Tso Boneless Pork Ribs",
+                      "name": "Crispy Orange Hoisin Pork",
                       "tags": [
                         "Contains Gluten",
                         "Contains Pork",
+                        "Contains Sesame",
                         "Soy"
                       ]
                     }
@@ -11636,6 +11638,16 @@
             }
           ]
         }
+      ],
+      "hours": [
+        {
+          "date": "2026-11-02",
+          "text": "7:00am - 9:00pm"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "7:00am - 9:00pm"
+        }
       ]
     },
     {
@@ -12048,15 +12060,6 @@
                       ]
                     },
                     {
-                      "name": "Honey Sriracha Carrots",
-                      "tags": [
-                        "Contains Sesame",
-                        "Soy",
-                        "Halal (U)",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
                       "name": "Peppered Mashed Potatoes",
                       "tags": [
                         "Contains Dairy",
@@ -12066,6 +12069,14 @@
                     },
                     {
                       "name": "White Basmati Rice",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Root Vegetables",
                       "tags": [
                         "Halal (U)",
                         "Vegan",
@@ -14460,10 +14471,26 @@
                   "name": "Bread",
                   "items": [
                     {
+                      "name": "Apple Cinnamon Muffins",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy"
+                      ]
+                    },
+                    {
                       "name": "Assorted Bagels",
                       "tags": [
                         "Contains Gluten",
                         "Contains Sesame"
+                      ]
+                    },
+                    {
+                      "name": "Blueberry Muffins",
+                      "tags": [
+                        "Contains Gluten",
+                        "Eggs"
                       ]
                     },
                     {
@@ -17857,6 +17884,16 @@
             }
           ]
         }
+      ],
+      "hours": [
+        {
+          "date": "2026-11-02",
+          "text": "7:00am - 8:00pm"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "7:00am - 8:00pm"
+        }
       ]
     },
     {
@@ -21020,6 +21057,16 @@
               ]
             }
           ]
+        }
+      ],
+      "hours": [
+        {
+          "date": "2026-11-02",
+          "text": "11:00am - 8:00pm"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "11:00am - 8:00pm"
         }
       ]
     },
@@ -24287,52 +24334,55 @@
                   "name": "Entree",
                   "items": [
                     {
-                      "name": "Caribbean Braised Cabbage",
-                      "tags": [
-                        "Halal (U)",
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Spaghetti Squash with Pepper Sauce",
-                      "tags": [
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Sesame Bok Choy",
-                      "tags": [
-                        "Contains Sesame",
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Crispy Ranch Chicken",
-                      "tags": [
-                        "Contains Dairy",
-                        "Contains Gluten",
-                        "Contains Sesame",
-                        "Soy",
-                        "Halal (U)"
-                      ]
-                    },
-                    {
-                      "name": "White Basmati Rice",
-                      "tags": [
-                        "Halal (U)",
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
                       "name": "Vegetable Du Jour",
                       "tags": []
                     },
                     {
-                      "name": "Farm-Fresh Okra",
+                      "name": "Peppered Mashed Potatoes",
+                      "tags": [
+                        "Contains Dairy",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Pulled Pork BBQ",
+                      "tags": [
+                        "Contains Pork",
+                        "Soy"
+                      ]
+                    },
+                    {
+                      "name": "Atkins Mill Sweet Onion Hush Puppies",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Coleslaw",
+                      "tags": [
+                        "Eggs",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hawaiian Sweet Rolls",
+                      "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs",
+                        "Soy",
+                        "Halal (U)",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Hot Lemon Pepper Chicken",
                       "tags": []
                     }
                   ]
@@ -24359,7 +24409,23 @@
                       "tags": []
                     },
                     {
-                      "name": "Roasted Sweet Potatoes",
+                      "name": "New England Style Hot Dog Buns",
+                      "tags": [
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Black Bean Patty",
+                      "tags": [
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Thick Cut Steak Fries",
                       "tags": [
                         "Halal (U)",
                         "Vegan",
@@ -24367,33 +24433,10 @@
                       ]
                     },
                     {
-                      "name": "Roasted Acorn Squash",
+                      "name": "Mixed Vegetables",
                       "tags": [
-                        "Contains Dairy",
                         "Halal (U)",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Veggie Burger",
-                      "tags": [
-                        "Soy",
-                        "Vegan"
-                      ]
-                    },
-                    {
-                      "name": "Grilled Triple Cheese Sandwich",
-                      "tags": [
-                        "Contains Dairy",
-                        "Contains Gluten",
-                        "Soy"
-                      ]
-                    },
-                    {
-                      "name": "New England Style Hot Dog Buns",
-                      "tags": [
-                        "Contains Gluten",
-                        "Contains Sesame",
+                        "Vegan",
                         "Vegetarian"
                       ]
                     }
@@ -24403,9 +24446,27 @@
                   "name": "Display",
                   "items": [
                     {
-                      "name": "Roasted Vegetable Tray",
+                      "name": "Tofu Banh Mi Sandwich",
                       "tags": [
-                        "Contains Dairy"
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Soy",
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Asian Slaw",
+                      "tags": [
+                        "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Old Bay Potato Chips",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegetarian"
                       ]
                     }
                   ]
@@ -24873,13 +24934,6 @@
                   "name": "Extras",
                   "items": [
                     {
-                      "name": "Guacamole",
-                      "tags": [
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
                       "name": "Chunky Mild Salsa",
                       "tags": [
                         "Vegan",
@@ -24956,6 +25010,13 @@
                       "tags": [
                         "Halal (U)",
                         "Vegan",
+                        "Vegetarian"
+                      ]
+                    },
+                    {
+                      "name": "Three Cheese Alfredo Sauce",
+                      "tags": [
+                        "Contains Dairy",
                         "Vegetarian"
                       ]
                     }
@@ -25523,25 +25584,35 @@
                       ]
                     },
                     {
-                      "name": "BBQ Pulled Pork",
+                      "name": "Golden Fried Chicken Tenders",
                       "tags": [
-                        "Contains Pork"
+                        "Contains Dairy",
+                        "Contains Gluten",
+                        "Eggs"
                       ]
                     },
                     {
-                      "name": "Jalapeno Cheddar Corn Casserole",
+                      "name": "Crispy Ranch Chicken",
                       "tags": [
                         "Contains Dairy",
+                        "Contains Gluten",
+                        "Contains Sesame",
+                        "Soy",
+                        "Halal (U)"
+                      ]
+                    },
+                    {
+                      "name": "Roasted Baby Carrots",
+                      "tags": [
                         "Halal (U)",
+                        "Vegan",
                         "Vegetarian"
                       ]
                     },
                     {
-                      "name": "Hot Honey BBQ Meatballs",
+                      "name": "Soft Dinner Roll",
                       "tags": [
-                        "Contains Dairy",
-                        "Contains Gluten",
-                        "Soy"
+                        "Contains Gluten"
                       ]
                     }
                   ]
@@ -25568,42 +25639,45 @@
                       ]
                     },
                     {
-                      "name": "Beef Slider Patty",
+                      "name": "Hot Dog",
                       "tags": []
                     },
                     {
-                      "name": "Slider Bun",
+                      "name": "Hot Dog Bun",
                       "tags": [
-                        "Contains Dairy",
-                        "Contains Gluten"
-                      ]
-                    },
-                    {
-                      "name": "Fried Pickle Chips",
-                      "tags": [
-                        "Contains Dairy",
                         "Contains Gluten",
+                        "Contains Sesame",
                         "Soy",
                         "Vegetarian"
                       ]
                     },
                     {
-                      "name": "Mini Turkey Corn Dogs",
+                      "name": "Mozzarella Manicotti",
                       "tags": [
                         "Contains Dairy",
                         "Contains Gluten",
                         "Eggs",
-                        "Soy"
+                        "Halal (U)",
+                        "Vegetarian"
                       ]
                     },
                     {
-                      "name": "Veggie Burger",
+                      "name": "Vegetable Du Jour",
+                      "tags": []
+                    },
+                    {
+                      "name": "Three Cheese Grilled Cheese",
                       "tags": [
+                        "Contains Dairy",
+                        "Contains Gluten",
                         "Soy",
                         "Halal (U)",
-                        "Vegan",
                         "Vegetarian"
                       ]
+                    },
+                    {
+                      "name": "Beef Patty",
+                      "tags": []
                     }
                   ]
                 },
@@ -25611,48 +25685,11 @@
                   "name": "Display",
                   "items": [
                     {
-                      "name": "Seasoned Ground Beef",
-                      "tags": []
-                    },
-                    {
-                      "name": "Sliced Olives",
-                      "tags": [
-                        "Halal (U)",
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Nacho Cheese Sauce",
+                      "name": "Spicy Chicken Sandwich",
                       "tags": [
                         "Contains Dairy",
-                        "Halal (U)",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Sour Cream",
-                      "tags": [
-                        "Contains Dairy"
-                      ]
-                    },
-                    {
-                      "name": "Chunky Mild Salsa",
-                      "tags": [
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Jalapenos",
-                      "tags": [
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
-                      "name": "Tri-Colored Tortilla Chips",
-                      "tags": [
+                        "Contains Gluten",
+                        "Eggs",
                         "Soy"
                       ]
                     }
@@ -26419,6 +26456,16 @@
               ]
             }
           ]
+        }
+      ],
+      "hours": [
+        {
+          "date": "2026-11-02",
+          "text": "7:00am - 10:00am, 11:00am - 1:30pm"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "7:00am - 10:00am, 11:00am - 1:30pm"
         }
       ]
     },
@@ -27228,14 +27275,6 @@
                       ]
                     },
                     {
-                      "name": "Corn on the Cob",
-                      "tags": [
-                        "Halal (U)",
-                        "Vegan",
-                        "Vegetarian"
-                      ]
-                    },
-                    {
                       "name": "Spicy Honey Popcorn Chicken",
                       "tags": [
                         "Contains Gluten"
@@ -27254,6 +27293,14 @@
                       "tags": [
                         "Contains Dairy",
                         "Contains Gluten"
+                      ]
+                    },
+                    {
+                      "name": "Homestyle Corn",
+                      "tags": [
+                        "Halal (U)",
+                        "Vegan",
+                        "Vegetarian"
                       ]
                     }
                   ]
@@ -32195,6 +32242,16 @@
               ]
             }
           ]
+        }
+      ],
+      "hours": [
+        {
+          "date": "2026-11-02",
+          "text": "7:00am - 8:00pm"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "7:00am - 8:00pm"
         }
       ]
     }
