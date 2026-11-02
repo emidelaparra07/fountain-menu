@@ -5,7 +5,8 @@ What this does, in plain words:
   1. Opens NC State's menu website (NetNutrition) the way a browser would.
   2. Asks for each dining hall's week of menus (Fountain, Clark, One Earth, Case and University Towers).
   3. Asks for each Breakfast, Brunch, Lunch and Dinner menu in that week.
-  4. Saves everything into one tidy file called menu.json.
+  4. Reads today's and tomorrow's opening hours from each hall's page on dining.ncsu.edu.
+  5. Saves everything into one tidy file called menu.json.
 
 To add another dining hall later, add a line to UNITS below. If you don't know its
 ID number, write None and the scraper finds it on the site by name.
@@ -15,7 +16,8 @@ import os
 import re
 import sys
 import time
-from datetime import datetime
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
@@ -30,6 +32,15 @@ UNITS = {                                         # name -> unitOid (the site's 
 }
 MEALS_TO_KEEP = {"Breakfast", "Brunch", "Lunch", "Dinner"}  # "Daily" repeats the same food, so skip it
 PAUSE_SECONDS = 2                                 # wait between requests to be gentle on the site
+HOURS_SITE = "https://dining.ncsu.edu/location/"
+HOURS_PAGES = {                                   # name -> the end of the hall's web address (tried in order)
+    "Fountain Dining Hall": ["fountain"],
+    "Clark Dining Hall": ["clark"],
+    "One Earth": ["one-earth"],
+    "Case Dining Hall": ["case", "case-dining-hall"],
+    "University Towers": ["university-towers"],
+}
+CAMPUS_TIME = ZoneInfo("America/New_York")
 OUTPUT_FILE = os.environ.get("MENU_OUTPUT", "docs/menu.json")
 
 
@@ -164,6 +175,47 @@ def fetch_unit(session, unit_name, unit_oid, pause=PAUSE_SECONDS):
     return {"name": unit_name, "days": [days[d] for d in sorted(days, key=lambda d: d or "")]}
 
 
+def parse_hours(page_html, today=None):
+    """Reads the 'Hours for Monday, Nov. 2' boxes (today and tomorrow) on a hall's page."""
+    today = today or datetime.now(CAMPUS_TIME).date()
+    soup = BeautifulSoup(page_html, "html.parser")
+    found = []
+    for box_id in ("hours-today", "hours-tomorrow"):
+        box = soup.find(id=box_id)
+        if box is None or box.find("h3") is None:
+            continue
+        heading = box.find("h3").get_text(" ", strip=True)
+        match = re.search(r"([A-Z][a-z]{2})[a-z]*\.?\s+(\d{1,2})", heading.replace("Hours for", ""))
+        if not match:
+            continue
+        month = datetime.strptime(match.group(1), "%b").month
+        year = today.year + (1 if month < today.month - 6 else 0) - (1 if month > today.month + 6 else 0)
+        day = date(year, month, int(match.group(2)))
+        info = box.select_one(".sidebar__box__info") or box
+        ranges = [r.get_text(" ", strip=True).replace("\xa0", " ").strip() for r in info.select(".range")]
+        text = ", ".join(r for r in ranges if r) or info.get_text(" ", strip=True).replace("\xa0", " ").strip()
+        found.append({"date": day.isoformat(), "text": text or "Closed"})
+    return found
+
+
+def fetch_hours(unit_name):
+    """Gets a hall's hours from dining.ncsu.edu. Returns [] if they can't be found."""
+    for slug in HOURS_PAGES.get(unit_name, []):
+        try:
+            reply = requests.get(HOURS_SITE + slug + "/", timeout=30, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; StudentDiningMenuApp/0.1; personal student project)"})
+            if reply.status_code != 200:
+                continue
+            hours = parse_hours(reply.text)
+            if hours:
+                print(f"  Hours: {hours}")
+                return hours
+        except requests.RequestException as problem:
+            print(f"  Couldn't get hours from {slug}: {problem}")
+    print(f"  No hours found for {unit_name}.")
+    return []
+
+
 def run(session, units=UNITS, pause=PAUSE_SECONDS):
     home = session.get(BASE, timeout=30)  # visit the home page first so the site gives us a session
     known_ids = find_unit_ids(home.text)
@@ -178,10 +230,12 @@ def run(session, units=UNITS, pause=PAUSE_SECONDS):
             print(f"Found {name}: ID {oid}")
         print(f"Getting {name}...")
         try:
-            result["units"].append(fetch_unit(session, name, oid, pause))
+            unit = fetch_unit(session, name, oid, pause)
         except Exception as problem:  # one broken hall should not ruin the others
             print(f"  Couldn't get {name}: {problem}")
-            result["units"].append({"name": name, "days": []})
+            unit = {"name": name, "days": []}
+        unit["hours"] = fetch_hours(name)
+        result["units"].append(unit)
     return result
 
 
@@ -196,10 +250,19 @@ def keep_old_when_empty(result, path):
             old = {u["name"]: u for u in json.load(f).get("units", [])}
     except (OSError, ValueError):
         return
+    today = datetime.now(CAMPUS_TIME).date().isoformat()
     for i, unit in enumerate(result["units"]):
-        if unit_items(unit) == 0 and unit["name"] in old:
+        earlier = old.get(unit["name"])
+        if earlier is None:
+            continue
+        if unit_items(unit) == 0:
             print(f"  Keeping the earlier menu for {unit['name']}.")
-            result["units"][i] = old[unit["name"]]
+            hours = unit.get("hours")
+            result["units"][i] = unit = dict(earlier)
+            if hours:
+                unit["hours"] = hours
+        if not unit.get("hours"):  # hours page failed today: keep any earlier hours that aren't in the past
+            unit["hours"] = [h for h in earlier.get("hours", []) if h.get("date", "") >= today]
 
 
 def count_items(result):
